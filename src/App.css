@@ -18,6 +18,10 @@ i {
 }
 
 .app {
-  overflow: hidden;
+  overflow-x: hidden;
   height: 100vh;
+}
+
+.jmzinho {
+  width: 100px;
 }

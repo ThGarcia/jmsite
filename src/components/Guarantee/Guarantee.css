@@ -1,0 +1,92 @@
+.guarantee {
+  display: flex;
+  flex-direction: row;
+}
+
+.guarantee-card {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.guarantee-card-icon i {
+  font-size: 50px;
+}
+
+.guarantee-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.guarantee-card-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.guarantee-container i:hover {
+  color: #000;
+  cursor: default;
+}
+
+.guarantee-container {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.guarantee-cards-wrapper {
+  justify-content: center;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  max-width: calc(100% - 40px);
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 24px;
+}
+
+.carousel-arrow.left {
+  left: 5px;
+}
+
+.carousel-arrow.right {
+  right: 5px;
+}
+
+/* Tablet: Mostrar 2 cartões por vez */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .guarantee-card {
+    flex: 0 0 50%;
+    max-width: 40%;
+  }
+}
+
+/* Desktop: Mostrar 4 cartões lado a lado */
+@media screen and (min-width: 769px) {
+  .guarantee-container {
+    width: calc(1200px - 15px);
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .guarantee-card {
+    flex: -0.1 -0.1 25%;
+    max-width: 25%;
+    border: none;
+  }
+}
