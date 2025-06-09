@@ -1,8 +1,3 @@
-.guarantee {
-  display: flex;
-  flex-direction: row;
-}
-
 .guarantee-card {
   display: flex;
   gap: 5px;
@@ -34,19 +29,18 @@
 }
 
 .guarantee-container {
-  margin: 10px 0;
+  margin: 25px auto;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  overflow: hidden;
   position: relative;
 }
 
 .guarantee-cards-wrapper {
+  max-width: 1200px;
   justify-content: center;
   display: flex;
   transition: transform 0.5s ease-in-out;
-  max-width: calc(100% - 40px);
 }
 
 .carousel-arrow {
@@ -68,7 +62,6 @@
   right: 5px;
 }
 
-/* Tablet: Mostrar 2 cartões por vez */
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .guarantee-card {
     flex: 0 0 50%;
@@ -76,17 +69,15 @@
   }
 }
 
-/* Desktop: Mostrar 4 cartões lado a lado */
 @media screen and (min-width: 769px) {
   .guarantee-container {
-    width: calc(1200px - 15px);
-    margin: auto;
+    width: 1200px;
     flex-wrap: wrap;
   }
 
   .guarantee-card {
-    flex: -0.1 -0.1 25%;
-    max-width: 25%;
+    flex: 0 0 25%;
+    max-width: 23%;
     border: none;
   }
 }

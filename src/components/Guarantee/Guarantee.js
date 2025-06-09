@@ -1,25 +1,3 @@
-/*import './Guarantee.css';
-
-import GuaranteeCard from './GuaranteeCard';
-
-const Guarantee = () => {
-    const award = <i className="ri-award-line"></i>;
-    const tools = <i className="ri-tools-line"></i>;
-    const truck = <i className="ri-truck-line"></i>;
-    const bank = <i className="ri-bank-card-line"></i>;
-
-    return (
-        <div className='guarantee'>
-            <GuaranteeCard cardIcon={award} cardTitle={'Garantia de Produto'} cardText={'1 ano de garantia para produtos e serviços'} />
-            <GuaranteeCard cardIcon={tools} cardTitle={'Instalação Própria'} cardText={'profissionais capacitados e treinados'} />
-            <GuaranteeCard cardIcon={truck} cardTitle={'Entrega Garantida'} cardText={'comodidade e garantia de entrega para o cliente'} />
-            <GuaranteeCard cardIcon={bank} cardTitle={'Pagamento Facilitado'} cardText={'facilitamos o pagamento, confira'} />
-        </div>
-    );
-};
-
-export default Guarantee;
-*/
 import React, { useState } from 'react';
 import './Guarantee.css';
 import GuaranteeCard from './GuaranteeCard';
@@ -60,7 +38,6 @@ const Guarantee = () => {
     };
 
     return (
-
         <div className='guarantee-container'>
             {window.innerWidth < 769 && (
                 <button className='carousel-arrow left' onClick={handlePrev}><i className='ri-arrow-left-s-line'></i></button>
