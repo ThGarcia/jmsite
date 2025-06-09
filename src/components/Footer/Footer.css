@@ -1,0 +1,42 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px 25px; 
+}
+
+.footer i,
+.footer a {
+    color: white;
+}
+
+.footer i:hover,
+.footer a:hover {
+  color: #fec086;
+  cursor: pointer;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-local a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-contact {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        padding: 10px; 
+    }
+}

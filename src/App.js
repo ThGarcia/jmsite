@@ -3,8 +3,9 @@ import Header from './components/Header/Header';
 import Carousel from './components/Carousel/Carousel';
 import Guarantee from './components/Guarantee/Guarantee';
 import Product from './components/Product/Product';
+import Footer from './components/Footer/Footer';
 
-import img from './assets/posicionado.png';
+/*import img from './assets/posicionado.png';*/
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Carousel />
       <Guarantee />
       <Product />
-      <h1 style={{
+      {/*<h1 style={{
         textAlign: 'center',
         padding: '10px',
         backgroundColor: 'rgb(254, 192, 134)',
@@ -22,7 +23,8 @@ function App() {
       }}>
         JM CARPINTARIA
       </h1>
-      <img className='jmzinho' src={img} alt='' />
+      <img className='jmzinho' src={img} alt='' />*/}
+      <Footer />
     </div >
   );
 }
