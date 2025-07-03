@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/jmsite/static/css/main.ab6bd009.css",
-    "main.js": "/jmsite/static/js/main.207bc497.js",
-    "static/media/remixicon.svg?t=1734404658139": "/jmsite/static/media/remixicon.df9902a6df13645438e1.svg",
-    "static/media/posicionado.png": "/jmsite/static/media/posicionado.6b3bc900416ae5650623.png",
-    "static/media/bg2.png": "/jmsite/static/media/bg2.f09f6b7a991c7394b3f5.png",
-    "static/media/bg1.png": "/jmsite/static/media/bg1.aa00790b13ee189889c0.png",
-    "static/media/remixicon.eot?t=1734404658139": "/jmsite/static/media/remixicon.29066d810a74e994be27.eot",
-    "static/media/remixicon.ttf?t=1734404658139": "/jmsite/static/media/remixicon.868d1a768f4762dbcc3e.ttf",
-    "static/media/desktop-bg1.png": "/jmsite/static/media/desktop-bg1.5e424f650899f5f1b397.png",
-    "static/media/desktop-bg2.png": "/jmsite/static/media/desktop-bg2.824a16780610b0764e4f.png",
-    "static/media/TESTPRODUCT.png": "/jmsite/static/media/TESTPRODUCT.e3b98356192e300adad3.png",
-    "static/media/remixicon.woff?t=1734404658139": "/jmsite/static/media/remixicon.ce82bb240fef24f93f95.woff",
-    "static/media/remixicon.woff2?t=1734404658139": "/jmsite/static/media/remixicon.bb211d855a1864aa5b67.woff2",
-    "static/media/mobile-bg2.png": "/jmsite/static/media/mobile-bg2.80271af3f0efadf2292b.png",
-    "static/media/mobile-bg1.png": "/jmsite/static/media/mobile-bg1.4c6ca56faba7355a5487.png",
-    "static/media/logo.png": "/jmsite/static/media/logo.df9bcc5de36d32c36944.png",
-    "index.html": "/jmsite/index.html",
-    "main.ab6bd009.css.map": "/jmsite/static/css/main.ab6bd009.css.map",
-    "main.207bc497.js.map": "/jmsite/static/js/main.207bc497.js.map"
+    "main.css": "/static/css/main.ef5d356b.css",
+    "main.js": "/static/js/main.8b1f2bb3.js",
+    "static/media/remixicon.svg?t=1734404658139": "/static/media/remixicon.df9902a6df13645438e1.svg",
+    "static/media/posicionado.png": "/static/media/posicionado.6b3bc900416ae5650623.png",
+    "static/media/bg2.png": "/static/media/bg2.f09f6b7a991c7394b3f5.png",
+    "static/media/bg1.png": "/static/media/bg1.aa00790b13ee189889c0.png",
+    "static/media/remixicon.eot?t=1734404658139": "/static/media/remixicon.29066d810a74e994be27.eot",
+    "static/media/remixicon.ttf?t=1734404658139": "/static/media/remixicon.868d1a768f4762dbcc3e.ttf",
+    "static/media/desktop-bg1.png": "/static/media/desktop-bg1.5e424f650899f5f1b397.png",
+    "static/media/desktop-bg2.png": "/static/media/desktop-bg2.824a16780610b0764e4f.png",
+    "static/media/TESTPRODUCT.png": "/static/media/TESTPRODUCT.e3b98356192e300adad3.png",
+    "static/media/remixicon.woff?t=1734404658139": "/static/media/remixicon.ce82bb240fef24f93f95.woff",
+    "static/media/remixicon.woff2?t=1734404658139": "/static/media/remixicon.bb211d855a1864aa5b67.woff2",
+    "static/media/mobile-bg2.png": "/static/media/mobile-bg2.80271af3f0efadf2292b.png",
+    "static/media/mobile-bg1.png": "/static/media/mobile-bg1.4c6ca56faba7355a5487.png",
+    "static/media/logo.png": "/static/media/logo.df9bcc5de36d32c36944.png",
+    "index.html": "/index.html",
+    "main.ef5d356b.css.map": "/static/css/main.ef5d356b.css.map",
+    "main.8b1f2bb3.js.map": "/static/js/main.8b1f2bb3.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab6bd009.css",
-    "static/js/main.207bc497.js"
+    "static/css/main.ef5d356b.css",
+    "static/js/main.8b1f2bb3.js"
   ]
 }
