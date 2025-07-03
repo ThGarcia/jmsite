@@ -1,7 +1,7 @@
 {
   "name": "jmcarpintaria",
   "version": "0.1.0",
-  "homepage": "https://thgarcia.github.io/jmsite",
+  "homepage": "https://www.jmcarpintaria.com.br",
   "description": "A React application for JM Carpintaria, showcasing their services and portfolio.",
   "private": true,
   "dependencies": {
