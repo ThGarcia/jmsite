@@ -1,0 +1,160 @@
+/* =======================
+   Layout Principal
+   ======================= */
+.admin-container {
+  position: relative;
+}
+
+/* =======================
+   Títulos
+   ======================= */
+.title {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  color: #fff;
+}
+
+/* =======================
+   Área de Busca
+   ======================= */
+.search {
+  width: 100%;
+  padding: 40px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.search input[type="text"],
+.search input[type="password"] {
+  width: calc(100% - 20px);
+  border: 1px solid #000;
+  padding: 10px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+/* =======================
+   Lista de Links
+   ======================= */
+.linkList {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.linkList li {
+  background: #2c2c2c;
+  padding: 20px;
+}
+
+/* =======================
+   Links
+   ======================= */
+.link,
+.link-details a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.link-details a {
+  color: #000;
+}
+
+.link:hover,
+.link-details a:hover {
+  color: orange;
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+/* =======================
+   Detalhes dos Links
+   ======================= */
+.link-details {
+  margin-top: 10px;
+  display: none;
+  justify-content: center;
+  background: #fff;
+  padding: 10px;
+  gap: 10px;
+}
+
+.link-details.show {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
+}
+
+/* =======================
+   Destaque de Busca
+   ======================= */
+.highlight {
+  background: yellow;
+  color: #000;
+}
+
+/* =======================
+   Overlay de Bloqueio
+   ======================= */
+.lockOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255,255,255,0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.lockOverlay input {
+  margin-top: 10px;
+  max-width: 300px;
+}
+
+.lock-msg {
+  color: red;
+  margin-top: 10px;
+}
+
+/* =======================
+   Conteúdo Bloqueado
+   ======================= */
+.content.locked {
+  filter: blur(5px);
+  pointer-events: none;
+  user-select: none;
+}
+
+/* =======================
+   Botões
+   ======================= */
+.admin-container button {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  width: 320px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* =======================
+   Responsividade
+   ======================= */
+@media (min-width: 768px) {
+  .link-details.show {
+    grid-template-columns: repeat(4, minmax(120px, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .link-details.show {
+    grid-template-columns: repeat(12, minmax(auto, 1fr));
+  }
+}

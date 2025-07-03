@@ -18,7 +18,7 @@ const Footer = () => {
                     <a href='https://www.instagram.com/jmcarpintaria/' target='_blank' rel='noopener noreferrer'>
                         <span><i className='ri-instagram-line'></i></span>
                     </a>
-                    <a href='mailto:contato@jmcarpintaria.com?subject=Contato%20por%20site&body=Olá,%20tenho%20interesse%20em%20mais%20informações.'>
+                    <a href='mailto:contato@jmcarpintaria.com.br?subject=Contato%20por%20site&body=Olá,%20tenho%20interesse%20em%20mais%20informações.'>
                         <span><i className='ri-mail-line'></i></span>
                     </a>
                     <a href='https://api.whatsapp.com/send?phone=5547992192731&text=Olá,%20tenho%20interesse%20em%20mais%20informações.' target='_blank' rel='noopener noreferrer'>

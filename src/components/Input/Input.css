@@ -1,0 +1,34 @@
+.input {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.input label {
+    position: absolute;
+    padding: 5px 5px 0 5px;
+    left: 10px;
+    top: -15px;
+    background-color: black;
+}
+
+.input input {
+    padding: 10px 5px 5px 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    flex: 1;
+}
+
+.input p {
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+}
+
+.currency {
+    text-align: right;
+    padding: 10px 5px 5px 40px;
+}
